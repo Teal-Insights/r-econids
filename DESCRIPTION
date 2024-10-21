@@ -2,7 +2,7 @@ Package: stdgeography
 Title: Standardized Geography for Economists
 Version: 0.0.0.1
 Authors@R: 
-    c(person("Teal Insights", role = c("aut", "cre", "cph")))
+    c(person("Teal Insights", email = "lte@tealinsights.com", role = c("aut", "cre", "cph")))
 Description: Standardized country and aggregate mappings for working with economic data published by the IMF and World Bank
 License: use_mit_license()
 Encoding: UTF-8
@@ -11,10 +11,15 @@ RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),
     devtools (>= 2.4.5.9000),
-    lintr (>= 3.1.2.9000)
+    lintr (>= 3.1.2.9000),
+    languageserver (>= 0.3.16)
 Config/testthat/edition: 3
 URL: https://teal-insights.github.io/stdgeography, https://github.com/Teal-Insights/stdgeography
 BugReports: https://github.com/Teal-Insights/stdgeography/issues
-Remotes:
+Remotes: 
     r-lib/devtools,
-    r-lib/lintr
+    r-lib/lintr,
+    REditorSupport/languageserver
+Depends: 
+    R (>= 2.10)
+LazyData: true
