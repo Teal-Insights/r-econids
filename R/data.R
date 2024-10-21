@@ -3,8 +3,7 @@
 #' A dataset containing geographic groupings mapped to area names used by the
 #' IMF and World Bank.
 #'
-#' @format A data frame with [number of rows] rows and [number of columns]
-#' columns:
+#' @format A data frame with 2587 rows and 3 columns:
 #' \describe{
 #'   \item{country_name}{Standardized country name}
 #'   \item{country_group}{Standardized aggregate name}
