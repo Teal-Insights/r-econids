@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(packagename)
+library(stdgeography)
 
-test_check("packagename")
+test_check("stdgeography")

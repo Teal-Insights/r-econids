@@ -1,6 +1,6 @@
 ^renv$
 ^renv\.lock$
-^packagename\.Rproj$
+^stdgeography\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
 ^_pkgdown\.yml$
