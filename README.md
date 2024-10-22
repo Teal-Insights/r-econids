@@ -18,7 +18,7 @@ remotes::install_github("Teal-Insights/stdgeography")
 
 ``` r
 library(stdgeography)
-head(standardized_geographies)
+head(country_aggregates)
 ```
 
     ##   country_name      country_group group_type
@@ -28,6 +28,25 @@ head(standardized_geographies)
     ## 4       Canada Advanced Economies        IMF
     ## 5  Switzerland Advanced Economies        IMF
     ## 6       Cyprus Advanced Economies        IMF
+
+``` r
+head(country_codes)
+```
+
+    ##          country is_wb_country        wb_name  cldr_short_en iso2c iso3c iso3n
+    ## 1    Afghanistan          TRUE    Afghanistan    Afghanistan    AF   AFG     4
+    ## 2  Åland Islands         FALSE           <NA>  Åland Islands    AX   ALA   248
+    ## 3        Albania          TRUE        Albania        Albania    AL   ALB     8
+    ## 4        Algeria          TRUE        Algeria        Algeria    DZ   DZA    12
+    ## 5 American Samoa          TRUE American Samoa American Samoa    AS   ASM    16
+    ## 6        Andorra          TRUE        Andorra        Andorra    AD   AND    20
+    ##   imf continent country_name_en_regex
+    ## 1 512      Asia                afghan
+    ## 2  NA    Europe                 åland
+    ## 3 914    Europe               albania
+    ## 4 612    Africa               algeria
+    ## 5 859   Oceania  ^(?=.*americ).*samoa
+    ## 6  NA    Europe               andorra
 
 ## Development Workflow
 
@@ -89,7 +108,6 @@ head(standardized_geographies)
 ### Build Documentation
 
 - `pkgdown::build_site()` builds a documentation website for the package
-- `devtools::build_manual()` builds a PDF manual for the package
 - `devtools::build_vignettes()` builds all vignettes in the package
 
 ### CRAN Submission

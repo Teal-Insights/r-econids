@@ -1,6 +1,6 @@
 Package: stdgeography
 Title: Standardized Geography for Economists
-Version: 0.0.0.1
+Version: 0.0.0.2
 Authors@R: 
     c(person("Teal Insights", email = "lte@tealinsights.com", role = c("aut", "cre", "cph")))
 Description: Provides standardized country and aggregate mappings for working with economic data published by the IMF and World Bank. Aims to facilitate consistent data analysis and reporting.
