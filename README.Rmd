@@ -19,7 +19,8 @@ remotes::install_github("Teal-Insights/stdgeography")
 
 ```{r include=TRUE, eval=TRUE}
 library(stdgeography)
-head(standardized_geographies)
+head(country_aggregates)
+head(country_codes)
 ```
 
 ## Development Workflow
@@ -74,6 +75,7 @@ head(standardized_geographies)
 
 - `devtools::document()` generates documentation files from roxygen2
   comments
+- `devtools::build_readme()` builds the README.md file from README.Rmd
 - `devtools::build()` builds the package into a .tar.gz file
 - `devtools::install()` installs the package locally
 - `devtools::check()` runs R CMD check on the package

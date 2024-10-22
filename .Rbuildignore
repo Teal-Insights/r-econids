@@ -10,3 +10,4 @@
 ^\.lintr$
 ^codecov\.yml$
 ^LICENSE\.md$
+^data-raw$
