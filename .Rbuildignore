@@ -11,3 +11,5 @@
 ^codecov\.yml$
 ^LICENSE\.md$
 ^data-raw$
+^.env$
+^data-raw/.csv$
