@@ -10,9 +10,10 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),
-    devtools (>= 2.4.5.9000),
-    lintr (>= 3.1.2.9000),
-    languageserver (>= 0.3.16)
+    devtools (>= 2.4.5),
+    lintr (>= 3.1.2),
+    languageserver (>= 0.3.16),
+    dotenv
 Config/testthat/edition: 3
 URL: https://teal-insights.github.io/stdgeography, https://github.com/Teal-Insights/stdgeography
 BugReports: https://github.com/Teal-Insights/stdgeography/issues
