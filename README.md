@@ -66,6 +66,10 @@ head(country_codes)
   dependencies
 - `usethis::use_dev_package(package, type="Suggests")` adds a
   development dependency (won’t be installed for end-users)
+- `pak::pkg_install("github::username/package")` to add a Github
+  dependency (since
+  `usethis::use_package(package, remote="github::username/package")`
+  seems not to work, even though it should)
 - `usethis::use_import_from(package, fun=)` adds a single function
   import to the roxygen2 docs
 
@@ -102,7 +106,7 @@ head(country_codes)
 
 - `devtools::document()` generates documentation files from roxygen2
   comments
-- `devtools::build_readme()` builds the README.md file from README.Rmd
+- `devtools::build_readme()` renders the .md README from the .Rmd README
 - `devtools::build()` builds the package into a .tar.gz file
 - `devtools::install()` installs the package locally
 - `devtools::check()` runs R CMD check on the package
@@ -111,7 +115,21 @@ head(country_codes)
 ### Build Documentation
 
 - `pkgdown::build_site()` builds a documentation website for the package
+- `devtools::build_manual()` builds a PDF manual for the package
 - `devtools::build_vignettes()` builds all vignettes in the package
+
+### Increment Version
+
+`usethis::use_version(which=NULL,push=NULL)` updates your package’s
+version number in DESCRIPTION and commits the change.
+
+- `which`: Controls which part of the version number to increment
+  - “major”: First number (0.0.1 -\> 1.0.0)
+  - “minor”: Second number (0.0.1 -\> 0.1.0)
+  - “patch”: Third number (0.0.1 -\> 0.0.2)
+  - “dev”: Adds development suffix (0.0.1 -\> 0.0.1.9000)
+- `push`: When TRUE, automatically pushes the version bump commit to
+  remote
 
 ### CRAN Submission
 
