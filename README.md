@@ -1,4 +1,6 @@
 
+<a href="https://teal-insights.github.io/r-econid"><img src="man/figures/logo.png" align="right" height="40" alt="r-econid website" /></a>
+
 # econid
 
 <!-- badges: start -->
@@ -100,6 +102,7 @@ head(country_codes)
 
 - `devtools::document()` generates documentation files from roxygen2
   comments
+- `devtools::build_readme()` builds the README.md file from README.Rmd
 - `devtools::build()` builds the package into a .tar.gz file
 - `devtools::install()` installs the package locally
 - `devtools::check()` runs R CMD check on the package
