@@ -1,4 +1,6 @@
 
+<a href="https://teal-insights.github.io/r-econid"><img src="man/figures/logo.png" align="right" height="40" alt="r-econid website" /></a>
+
 # econid
 
 <!-- badges: start -->
@@ -33,20 +35,20 @@ head(country_aggregates)
 head(country_codes)
 ```
 
-    ##            country is_wb_country        wb_name    cldr_short_en iso2c iso3c
-    ## 1      Afghanistan          TRUE    Afghanistan      Afghanistan    AF   AFG
-    ## 2 \xc5land Islands         FALSE           <NA> \xc5land Islands    AX   ALA
-    ## 3          Albania          TRUE        Albania          Albania    AL   ALB
-    ## 4          Algeria          TRUE        Algeria          Algeria    DZ   DZA
-    ## 5   American Samoa          TRUE American Samoa   American Samoa    AS   ASM
-    ## 6          Andorra          TRUE        Andorra          Andorra    AD   AND
-    ##   iso3n imf continent country_name_en_regex
-    ## 1     4 512      Asia                afghan
-    ## 2   248  NA    Europe              \xe5land
-    ## 3     8 914    Europe               albania
-    ## 4    12 612    Africa               algeria
-    ## 5    16 859   Oceania  ^(?=.*americ).*samoa
-    ## 6    20  NA    Europe               andorra
+    ##          country is_wb_country        wb_name  cldr_short_en iso2c iso3c iso3n
+    ## 1    Afghanistan          TRUE    Afghanistan    Afghanistan    AF   AFG     4
+    ## 2  Åland Islands         FALSE           <NA>  Åland Islands    AX   ALA   248
+    ## 3        Albania          TRUE        Albania        Albania    AL   ALB     8
+    ## 4        Algeria          TRUE        Algeria        Algeria    DZ   DZA    12
+    ## 5 American Samoa          TRUE American Samoa American Samoa    AS   ASM    16
+    ## 6        Andorra          TRUE        Andorra        Andorra    AD   AND    20
+    ##   imf continent country_name_en_regex
+    ## 1 512      Asia                afghan
+    ## 2  NA    Europe                 åland
+    ## 3 914    Europe               albania
+    ## 4 612    Africa               algeria
+    ## 5 859   Oceania  ^(?=.*americ).*samoa
+    ## 6  NA    Europe               andorra
 
 ## Development Workflow
 
