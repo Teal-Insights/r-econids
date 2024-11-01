@@ -1,23 +1,23 @@
 
-# economies
+# econid
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/Teal-Insights/r-economies/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Teal-Insights/r-economies/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/Teal-Insights/r-econid/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Teal-Insights/r-econid/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/Teal-Insights/r-economies/graph/badge.svg)](https://app.codecov.io/gh/Teal-Insights/r-economies)
+coverage](https://codecov.io/gh/Teal-Insights/r-econid/graph/badge.svg)](https://app.codecov.io/gh/Teal-Insights/r-econid)
 <!-- badges: end -->
 
 ## Installation
 
 ``` r
-remotes::install_github("Teal-Insights/r-economies")
+remotes::install_github("Teal-Insights/r-econid")
 ```
 
 ## Usage
 
 ``` r
-library(economies)
+library(econid)
 head(country_aggregates)
 ```
 

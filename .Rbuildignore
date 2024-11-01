@@ -1,6 +1,6 @@
 ^renv$
 ^renv\.lock$
-^r-economies\.Rproj$
+^r-econid\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
 ^_pkgdown\.yml$

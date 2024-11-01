@@ -1,5 +1,5 @@
 # Load the dataset
-data("country_aggregates", package = "economies")
+data("country_aggregates", package = "econid")
 
 test_that("country_aggregates dataset has correct columns and no NAs", {
   # Check if the dataset has the required columns

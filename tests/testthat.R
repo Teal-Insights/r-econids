@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(economies)
+library(econid)
 
-test_check("economies")
+test_check("econid")
