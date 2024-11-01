@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(stdgeography)
+library(econid)
 
-test_check("stdgeography")
+test_check("econid")

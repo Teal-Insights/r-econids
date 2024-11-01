@@ -1,4 +1,4 @@
-Package: stdgeography
+Package: econid
 Title: Standardized Geography for Economists
 Version: 0.0.0.2
 Authors@R: 
@@ -14,8 +14,8 @@ Suggests:
     lintr (>= 3.1.2.9000),
     languageserver (>= 0.3.16)
 Config/testthat/edition: 3
-URL: https://teal-insights.github.io/stdgeography, https://github.com/Teal-Insights/stdgeography
-BugReports: https://github.com/Teal-Insights/stdgeography/issues
+URL: https://teal-insights.github.io/r-econid, https://github.com/Teal-Insights/r-econid
+BugReports: https://github.com/Teal-Insights/r-econid/issues
 Remotes: 
     r-lib/devtools,
     r-lib/lintr,
