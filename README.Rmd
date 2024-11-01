@@ -2,25 +2,25 @@
 output: github_document
 ---
 
-<a href="https://teal-insights.github.io/stdgeography"><img src="man/figures/logo.png" align="right" height="40" alt="stdgeography website" /></a>
+<a href="https://teal-insights.github.io/r-economies"><img src="man/figures/logo.png" align="right" height="40" alt="r-economies website" /></a>
 
-# stdgeography
+# economies
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/Teal-Insights/stdgeography/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Teal-Insights/stdgeography/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/Teal-Insights/stdgeography/graph/badge.svg)](https://app.codecov.io/gh/Teal-Insights/stdgeography)
+[![R-CMD-check](https://github.com/Teal-Insights/r-economies/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Teal-Insights/r-economies/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/Teal-Insights/r-economies/graph/badge.svg)](https://app.codecov.io/gh/Teal-Insights/r-economies)
 <!-- badges: end -->
 
 ## Installation
 
 ```r
-remotes::install_github("Teal-Insights/stdgeography")
+remotes::install_github("Teal-Insights/r-economies")
 ```
 
 ## Usage
 
 ```{r include=TRUE, eval=TRUE}
-library(stdgeography)
+library(economies)
 head(country_aggregates)
 head(country_codes)
 ```

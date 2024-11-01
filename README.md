@@ -1,23 +1,23 @@
 
-# stdgeography
+# economies
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/Teal-Insights/stdgeography/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Teal-Insights/stdgeography/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/Teal-Insights/r-economies/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Teal-Insights/r-economies/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/Teal-Insights/stdgeography/graph/badge.svg)](https://app.codecov.io/gh/Teal-Insights/stdgeography)
+coverage](https://codecov.io/gh/Teal-Insights/r-economies/graph/badge.svg)](https://app.codecov.io/gh/Teal-Insights/r-economies)
 <!-- badges: end -->
 
 ## Installation
 
 ``` r
-remotes::install_github("Teal-Insights/stdgeography")
+remotes::install_github("Teal-Insights/r-economies")
 ```
 
 ## Usage
 
 ``` r
-library(stdgeography)
+library(economies)
 head(country_aggregates)
 ```
 

@@ -1,6 +1,6 @@
 ^renv$
 ^renv\.lock$
-^stdgeography\.Rproj$
+^r-economies\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
 ^_pkgdown\.yml$
