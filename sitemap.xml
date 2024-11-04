@@ -1,7 +1,11 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>https://teal-insights.github.io/stdgeography/404.html</loc></url>
-<url><loc>https://teal-insights.github.io/stdgeography/authors.html</loc></url>
-<url><loc>https://teal-insights.github.io/stdgeography/index.html</loc></url>
-<url><loc>https://teal-insights.github.io/stdgeography/reference/index.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/404.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/LICENSE-text.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/LICENSE.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/authors.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/index.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/reference/country_aggregates.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/reference/country_codes.html</loc></url>
+<url><loc>https://teal-insights.github.io/r-econid/reference/index.html</loc></url>
 </urlset>
 
