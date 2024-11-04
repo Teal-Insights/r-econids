@@ -13,8 +13,7 @@ A data frame with 2587 rows and 3 columns:
 }
 }
 \source{
-\url{https://github.com/t-emery/sais-susfin_data/blob/main/datasets/
-imf_wb_country_groups.csv}
+\url{https://github.com/t-emery/sais-susfin_data/blob/main/datasets/imf_wb_country_groups.csv}
 }
 \usage{
 country_aggregates

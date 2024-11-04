@@ -5,7 +5,7 @@ url <- "https://rest-countries10.p.rapidapi.com/countries"
 dotenv::load_dot_env(".env")
 
 # Check if X-RAPIDAPI-KEY is set and stop if not
-if(Sys.getenv("X-RAPIDAPI-KEY") == "") {
+if (Sys.getenv("X-RAPIDAPI-KEY") == "") {
   stop("X-RAPIDAPI-KEY is not set")
 }
 
@@ -40,7 +40,13 @@ iso_codes <- json_data |>
 
 # Fill missing fullname with shortnamelowercase
 iso_codes <- iso_codes |>
-  dplyr::mutate(fullname = ifelse(is.na(fullname), shortnamelowercase, fullname))
+  dplyr::mutate(
+    fullname = ifelse(is.na(fullname), shortnamelowercase, fullname)
+  )
 
 # save to data-raw/.csv/iso_codes.csv
-write.csv(iso_codes, file.path("data-raw", ".csv", "iso_codes.csv"), row.names = FALSE)
+write.csv(
+  iso_codes,
+  file.path("data-raw", ".csv", "iso_codes.csv"),
+  row.names = FALSE
+)

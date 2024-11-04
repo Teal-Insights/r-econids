@@ -9,8 +9,7 @@
 #'   \item{country_group}{Standardized aggregate name}
 #'   \item{group_type}{Either "IMF" or "World Bank"}
 #' }
-#' @source \url{https://github.com/t-emery/sais-susfin_data/blob/main/datasets/
-#' imf_wb_country_groups.csv}
+#' @source \url{https://github.com/t-emery/sais-susfin_data/blob/main/datasets/imf_wb_country_groups.csv}
 "country_aggregates"
 
 #' Country Data with ISO Codes and World Bank Information
@@ -32,6 +31,5 @@
 #'   \item{continent}{Continent name}
 #'   \item{country_name_en_regex}{Standardized country name}
 #' }
-#' @source \url{https://github.com/t-emery/wbhelpr/blob/master/data-raw/
-#' wb_countrycode.csv}
+#' @source \url{https://github.com/t-emery/wbhelpr/blob/master/data-raw/wb_countrycode.csv}
 "country_codes"
