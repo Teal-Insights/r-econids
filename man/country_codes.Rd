@@ -21,8 +21,7 @@ World Bank}
 }
 }
 \source{
-\url{https://github.com/t-emery/wbhelpr/blob/master/data-raw/
-wb_countrycode.csv}
+\url{https://github.com/t-emery/wbhelpr/blob/master/data-raw/wb_countrycode.csv}
 }
 \usage{
 country_codes
