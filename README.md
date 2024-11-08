@@ -40,13 +40,13 @@ head(country_codes)
     ## 4        Algeria          TRUE        Algeria        Algeria    DZ   DZA    12
     ## 5 American Samoa          TRUE American Samoa American Samoa    AS   ASM    16
     ## 6        Andorra          TRUE        Andorra        Andorra    AD   AND    20
-    ##   imf continent country_name_en_regex
-    ## 1 512      Asia                afghan
-    ## 2  NA    Europe                 åland
-    ## 3 914    Europe               albania
-    ## 4 612    Africa               algeria
-    ## 5 859   Oceania  ^(?=.*americ).*samoa
-    ## 6  NA    Europe               andorra
+    ##   imf continent country_name_en_regex wb_counterpart_id
+    ## 1 512      Asia                afghan               625
+    ## 2  NA    Europe                 åland              <NA>
+    ## 3 914    Europe               albania               071
+    ## 4 612    Africa               algeria               130
+    ## 5 859   Oceania  ^(?=.*americ).*samoa              <NA>
+    ## 6  NA    Europe               andorra               025
 
 ## Development Workflow
 

@@ -1,5 +1,5 @@
 ## code to prepare `country_codes` dataset goes here
-## TODO: Construct the dataset anew rather than downloading it
+## TODO: Construct the dataset anew rather than downloading CSV
 
 # Download the CSV from the specified URL and save to a temporary file
 url <- paste0("https://raw.githubusercontent.com/t-emery/wbhelpr/",

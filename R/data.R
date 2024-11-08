@@ -37,3 +37,36 @@
 #' @source \url{https://github.com/t-emery/wbhelpr/blob/master/data-raw/wb_countrycode.csv}
 # nolint end
 "country_codes"
+
+#' World Bank Geographic Entities
+#'
+#' A dataset containing countries, regions, and other geographic entities from
+#' the World Bank's WDI API, enriched with data from other World Bank sources.
+#'
+#' @format A data frame with the following columns:
+#' \describe{
+#'   \item{geography_iso3}{ISO 3166-1 alpha-3 code}
+#'   \item{geography_iso2}{ISO 3166-1 alpha-2 code}
+#'   \item{geography_name}{Standardized name of the geographic entity}
+#'   \item{geography_type}{Type of the geography: "Country" or "Region"}
+#' }
+#' @source World Bank World Development Indicators API
+"geographies"
+
+#' World Bank Counterparts
+#'
+#' A dataset containing counterpart entities from the World Bank's IDS API.
+#'
+#' @format A data frame with the following columns:
+#' \describe{
+#'   \item{counterpart_id}{Unique identifier for the counterpart}
+#'   \item{counterpart_name}{Name of the counterpart entity}
+#'   \item{geography_iso3}{ISO 3166-1 alpha-3 code, where available}
+#'   \item{geography_iso2}{ISO 3166-1 alpha-2 code, where available}
+#'   \item{geography_type}{Type of geographic entity (e.g., "Country",
+#'         "Region", "Institution")}
+#'   \item{counterpart_type}{Classification of the counterpart (e.g.,
+#'         "Country", "Global MDBs", "Global IFIs")}
+#' }
+#' @source World Bank International Debt Statistics API
+"counterparts"

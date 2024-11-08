@@ -14,7 +14,9 @@ Suggests:
     devtools (>= 2.4.5),
     lintr (>= 3.1.2),
     languageserver (>= 0.3.16),
-    dotenv
+    dotenv,
+    dplyr,
+    tidyr
 Config/testthat/edition: 3
 URL: https://teal-insights.github.io/r-econid, https://github.com/Teal-Insights/r-econid
 BugReports: https://github.com/Teal-Insights/r-econid/issues
