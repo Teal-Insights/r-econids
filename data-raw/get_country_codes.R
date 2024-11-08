@@ -1,5 +1,5 @@
 ## code to prepare `country_codes` dataset goes here
-## TODO: Construct the dataset anew rather than downloading it
+## TODO: Construct the dataset anew rather than downloading CSV
 
 # Download the CSV from the specified URL and save to a temporary file
 url <- paste0("https://raw.githubusercontent.com/t-emery/wbhelpr/",
@@ -146,7 +146,7 @@ counterparts_ids <- counterparts_raw[[1]]$concept[[1]]$variable |>
   dplyr::select(counterpart_id = id,
                 counterpart_name = value)
 
-# Match counterparts to country codes using regex patterns
+# Match counterpart ids to country codes using regex patterns
 country_codes <- country_codes |>
   dplyr::mutate(
     # For each country, find matching counterpart_id using regex
@@ -160,6 +160,10 @@ country_codes <- country_codes |>
       }
     })
   )
+
+# TODO: We still have >100 counterpart regions, institutions, and countries
+# without matches
+
 
 # Save the dataset to an .rda file for export using usethis::use_data
 usethis::use_data(country_codes, overwrite = TRUE)
