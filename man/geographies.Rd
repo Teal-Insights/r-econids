@@ -7,11 +7,10 @@
 \format{
 A data frame with the following columns:
 \describe{
-\item{geography_iso3}{ISO 3166-1 alpha-3 code, where available}
-\item{geography_iso2}{ISO 3166-1 alpha-2 code, where available}
+\item{geography_iso3}{ISO 3166-1 alpha-3 code}
+\item{geography_iso2}{ISO 3166-1 alpha-2 code}
 \item{geography_name}{Standardized name of the geographic entity}
-\item{geography_type}{Type of entity: "Country", "Region", or other
-classification}
+\item{geography_type}{Type of the geography: "Country" or "Region"}
 }
 }
 \source{

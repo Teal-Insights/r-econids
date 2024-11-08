@@ -9,19 +9,21 @@ A data frame with the following columns:
 \describe{
 \item{counterpart_id}{Unique identifier for the counterpart}
 \item{counterpart_name}{Name of the counterpart entity}
-\item{geography_iso3}{ISO 3166-1 alpha-3 code}
-\item{geography_iso2}{ISO 3166-1 alpha-2 code}
-\item{geography_type}{Type of geographic entity (e.g., "Country")}
-\item{counterpart_type}{Classification of the counterpart}
+\item{geography_iso3}{ISO 3166-1 alpha-3 code, where available}
+\item{geography_iso2}{ISO 3166-1 alpha-2 code, where available}
+\item{geography_type}{Type of geographic entity (e.g., "Country",
+"Region", "Institution")}
+\item{counterpart_type}{Classification of the counterpart (e.g.,
+"Country", "Global MDBs", "Global IFIs")}
 }
 }
 \source{
-World Bank World Development Indicators API
+World Bank International Debt Statistics API
 }
 \usage{
 counterparts
 }
 \description{
-A dataset containing counterpart entities from the World Bank's WDI API.
+A dataset containing counterpart entities from the World Bank's IDS API.
 }
 \keyword{datasets}
